@@ -2,11 +2,13 @@ package steps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.testng.annotations.Test;
 import pageobject.PageObject;
 
 import static hooks.Hooks.driver;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+
 
 public class stepCheckBox {
     PageObject pageobject = new PageObject(driver);
