@@ -37,6 +37,7 @@ Ce site permet de tester :
 * Maven
 * WebDriverManager
 * Apache POI
+* Cucummber
 
 ---
 
@@ -91,13 +92,10 @@ mvn clean install
 ```bash
 mvn test
 ```
-
 ### Avec TestNG
 
 * Exécuter le fichier `testng.xml`
-
 ---
-
 ## 📊 Rapport de test
 
 Après exécution, le rapport est généré ici :
@@ -105,24 +103,18 @@ Après exécution, le rapport est généré ici :
 ```bash
 target/ExtentReport.html
 ```
-
 Ouvre ce fichier dans ton navigateur pour voir :
 
 * ✅ Tests réussis
 * ❌ Tests échoués
 * ⚠️ Tests ignorés
 * 📸 Captures d’écran (si configurées)
-
 ---
 
 ## 🎨 Personnalisation du rapport
-
 ```java
 spark.config().setTheme(Theme.DARK);
 ```
-
----
-
 ## 🧩 Fonctionnalités
 
 * Automatisation UI avec Selenium
@@ -130,24 +122,16 @@ spark.config().setTheme(Theme.DARK);
 * Reporting avancé avec ExtentReports
 * Lecture de données Excel
 * Structure Page Object Model (POM)
-
----
-
-## 🚀 Améliorations possibles
-
-* Ajout de screenshots automatiques
+* * Ajout de screenshots automatiques
 * Intégration CI/CD (Jenkins, GitHub Actions)
-* Exécution parallèle des tests
 * Intégration avec Cucumber (BDD)
 
----
+## 🚀 Améliorations possibles
+* Exécution parallèle des tests
 
 ## 👤 Auteur
-
 * TRAORE
-
 ---
-
 ## 📄 Licence
 
 Projet à usage éducatif et professionnel.
