@@ -1,3 +1,4 @@
+
 Feature: Automation checkbox
 
   Scenario: Click checkbox
