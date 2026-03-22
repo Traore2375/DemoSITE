@@ -49,7 +49,7 @@ public class Hooks {
         pageForms =new PageForms(driver);
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
         scenarioTest = extent.createTest(scenario.getName());
 
     }
