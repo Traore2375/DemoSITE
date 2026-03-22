@@ -3,12 +3,11 @@ package steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
 import pageobject.PageForms;
 
 import static hooks.Hooks.driver;
 
-public class FormRsgister {
+public class FormResgister {
     PageForms pageForms = new PageForms(driver);
 
     @Given("go site demo {string}")
