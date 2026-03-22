@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         dryRun = false,
         plugin = {"pretty", "html:target/cucumber-report.html", "json:target/cucumber.json"},
-        tags = "@upload" )
+        tags = "" )
 
 public class TestRun extends AbstractTestNGCucumberTests {
 }
