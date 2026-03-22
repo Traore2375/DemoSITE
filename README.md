@@ -138,6 +138,7 @@ Steps:
 <img width="1852" height="907" alt="image" src="https://github.com/user-attachments/assets/e926492c-fb23-43f9-9f41-2418c99108fc" />
 <img width="1762" height="952" alt="image" src="https://github.com/user-attachments/assets/667bd7bd-2a07-45a8-869d-6b2c9b519fc5" />
 
+<img width="1895" height="953" alt="image" src="https://github.com/user-attachments/assets/9d4936f7-09d4-4334-abea-95946876c50d" />
 
 ## 👤 Auteur
 * TRAORE
