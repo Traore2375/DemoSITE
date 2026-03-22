@@ -1,5 +1,6 @@
 package pageobject;
 
+import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,6 +32,10 @@ private WebElement btnthirst;
 @FindBy(id = "promtButton")
 private WebElement btnfourth;
 
+@FindBy(id = "confirmResult")
+private WebElement btnconfirmmessage;
+@FindBy(id = "promptResult")
+private WebElement btnpromptmessage;
 public void setBtnfirstalert(){
         btnfirstalert.click();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
@@ -70,4 +75,12 @@ public void setBtnfourth(){
 
 }
 
+public void setBtnconfirmmessage(String message){
+    String expectedmessage= btnconfirmmessage.getText();
+    Assert.assertEquals(expectedmessage,message);
+}
+public void setBtnpromptmessage(String arg){
+    String promptmessage= btnpromptmessage.getText();
+    Assert.assertEquals(promptmessage,arg);
+}
 }
