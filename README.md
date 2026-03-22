@@ -129,11 +129,15 @@ spark.config().setTheme(Theme.DARK);
 ## 🚀 Améliorations possibles
 * Exécution parallèle des tests
 
+
+---
+## 📄 Rapports de test via JENKINS
+Scenario : 
+<img width="1793" height="891" alt="image" src="https://github.com/user-attachments/assets/1b353da8-fae4-4886-aabf-768bdf877d8e" />
+Steps: 
+<img width="1852" height="907" alt="image" src="https://github.com/user-attachments/assets/e926492c-fb23-43f9-9f41-2418c99108fc" />
+<img width="1762" height="952" alt="image" src="https://github.com/user-attachments/assets/667bd7bd-2a07-45a8-869d-6b2c9b519fc5" />
+
+
 ## 👤 Auteur
 * TRAORE
----
-## 📄 Licence
-
-Projet à usage éducatif et professionnel.
-
-<img width="1793" height="891" alt="image" src="https://github.com/user-attachments/assets/1b353da8-fae4-4886-aabf-768bdf877d8e" />
