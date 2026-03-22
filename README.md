@@ -136,3 +136,4 @@ spark.config().setTheme(Theme.DARK);
 
 Projet à usage éducatif et professionnel.
 
+<img width="1793" height="891" alt="image" src="https://github.com/user-attachments/assets/1b353da8-fae4-4886-aabf-768bdf877d8e" />
