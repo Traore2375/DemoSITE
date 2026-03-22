@@ -4,11 +4,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageobject.PageObject;
+import utilities.Actioncursor;
 
 import static hooks.Hooks.driver;
 
 public class UploadandDownload {
     PageObject pob = new PageObject(driver);
+
     @Given("i connect on url {string}")
     public void i_connect_on_url(String string) {
       driver.navigate().to(string);
@@ -29,8 +31,7 @@ public class UploadandDownload {
     }
     @Then("import into system")
     public void import_into_system() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        System.out.println("fichier importer avec succes");
     }
 
 

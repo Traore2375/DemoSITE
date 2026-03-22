@@ -1,6 +1,7 @@
 package pageobject;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -8,8 +9,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utilities.Actioncursor;
 
 
+import java.io.File;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -46,7 +49,7 @@ public class PageObject {
     @FindBy(css = ".border col-md-12 col-sm-12")
     private WebElement resume;
 
-
+    Actioncursor actioncursor = new Actioncursor();
 
   @FindBy(xpath = "//span[text()='Check Box']")
    private WebElement checkboxelement;
@@ -300,7 +303,11 @@ public void downloadfile(){
 }
 public void chooseFile(){
 
-        btnchoosefile.sendKeys("C:\\Users\\TRAORE\\Downloads\\sampleFile (8)");
+    File file = new File("C:\\Users\\TRAORE\\Documents\\Testdata.xltx");
+
+    driver.findElement(By.id("uploadFile"))
+            .sendKeys(file.getAbsolutePath());
+
 }
 public void uploadfile(){
 

@@ -1,3 +1,4 @@
+@upload
 Feature: download and upload
 
   Scenario: automate download file dans upload
